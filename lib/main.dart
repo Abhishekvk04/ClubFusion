@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
 import 'package:flutter/material.dart';
 import 'package:collaborate/screens/clubs_screen.dart';
 import 'package:collaborate/login.dart';
+import 'package:collaborate/introduction_animation/introduction_animation_screen.dart';
 
 /// Flutter code sample for [ActionIconTheme].
 
@@ -138,7 +139,7 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
       body: const Center(
-        child: NextPageButton(),
+        child: IntroductionAnimationScreen(),
       ),
     );
   }

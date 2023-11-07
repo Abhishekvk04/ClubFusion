@@ -34,7 +34,10 @@ class _ClubsScreenState extends State<ClubsScreen> {
               child: Center(
                 child: const Text(
                   'Code Rit',
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               color: Colors.red,
