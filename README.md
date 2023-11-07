@@ -1,4 +1,4 @@
-Rohan
+This is the project for the intra-Internship of Ramaiah Institute of Technology
 # collaborate
 
 A new Flutter project.
