@@ -2,6 +2,7 @@ import 'package:collaborate/login.dart';
 import 'package:flutter/material.dart';
 import 'package:collaborate/models/club.dart'; // Define Club class
 import 'package:collaborate/screens/club_details_screen.dart';
+import 'package:collaborate/course_info_screen.dart';
 
 class ClubsScreen extends StatefulWidget {
   @override
@@ -46,7 +47,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => LoginPage()));
+                  MaterialPageRoute(builder: (context) => CourseInfoScreen()));
             },
             child: Container(
               padding: const EdgeInsets.all(20),
@@ -182,7 +183,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             padding: const EdgeInsets.all(20),
             child: Center(
               child: const Text(
-                'TNT',
+                'Edhitha',
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
@@ -272,7 +273,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             padding: const EdgeInsets.all(20),
             child: Center(
               child: const Text(
-                'Upthrust',
+                'Stardust',
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
