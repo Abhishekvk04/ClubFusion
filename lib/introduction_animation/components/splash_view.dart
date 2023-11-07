@@ -31,21 +31,21 @@ class _SplashViewState extends State<SplashView> {
             SizedBox(
               width: MediaQuery.of(context).size.width,
               child: Image.asset(
-                'assets/introduction_animation/introduction_image.png',
+                'assets/images/club.jpg',
                 fit: BoxFit.cover,
               ),
             ),
             Padding(
               padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
               child: Text(
-                "Hey, Welcome to Swasthva!",
+                "Hey, Welcome to ClubFusion!",
                 style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
               ),
             ),
             Padding(
               padding: EdgeInsets.only(left: 64, right: 64),
               child: Text(
-                "We, here in swasthva accompany you to benefit with your health and medical records",
+                "This is a app where you find all the clubs of RIT",
                 textAlign: TextAlign.center,
               ),
             ),
@@ -72,7 +72,7 @@ class _SplashViewState extends State<SplashView> {
                     color: Color(0xff132137),
                   ),
                   child: Text(
-                    "Welcome Aboard",
+                    "Welcome perks",
                     style: TextStyle(
                       fontSize: 18,
                       color: Colors.white,
