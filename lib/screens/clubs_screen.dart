@@ -1,3 +1,4 @@
+import 'package:collaborate/login.dart';
 import 'package:flutter/material.dart';
 import 'package:collaborate/models/club.dart'; // Define Club class
 import 'package:collaborate/screens/club_details_screen.dart';
@@ -18,77 +19,119 @@ class _ClubsScreenState extends State<ClubsScreen> {
       ),
       body: GridView.count(
         primary: false,
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(15),
         crossAxisSpacing: 4,
         mainAxisSpacing: 4,
-        crossAxisCount: 4,
+        crossAxisCount: 3,
         children: [
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'Code Rit',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'Code Rit',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
+              color: Colors.red,
             ),
-            color: Colors.red,
           ),
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'ITC Rit',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'ITC Rit',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
+              color: Colors.indigo,
             ),
-            color: Colors.indigo,
           ),
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'IEEE RIT',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'IEEE RIT',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
+              color: Colors.teal,
             ),
-            color: Colors.teal,
           ),
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'ACM Rit ',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'ACM Rit ',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
+              color: Colors.cyan,
             ),
-            color: Colors.cyan,
           ),
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'Mukti',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'Mukti',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
+              color: Colors.yellow,
             ),
-            color: Colors.yellow,
           ),
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'GDSC RIT',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'GDSC RIT',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
+              color: Colors.orange,
             ),
-            color: Colors.orange,
           ),
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Center(
-              child: const Text(
-                'Studio RIT',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginPage()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(20),
+              child: Center(
+                child: const Text(
+                  'Studio RIT',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
               ),
             ),
           ),
@@ -97,7 +140,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'iclick',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.purple,
@@ -107,7 +150,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Inferno',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.blue,
@@ -117,7 +160,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Lasya',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -127,7 +170,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Prayaag',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -137,7 +180,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'TNT',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -147,7 +190,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Theatrix',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -157,7 +200,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Chiraranga	',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -167,7 +210,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 '	DEBSOC',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -177,7 +220,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Quiz Club',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -187,7 +230,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Comedy Club',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -197,7 +240,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Fashion Team',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -207,7 +250,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Nakama',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -217,7 +260,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Finance Club',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
@@ -227,7 +270,7 @@ class _ClubsScreenState extends State<ClubsScreen> {
             child: Center(
               child: const Text(
                 'Upthrust',
-                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
             ),
             color: Colors.orange,
