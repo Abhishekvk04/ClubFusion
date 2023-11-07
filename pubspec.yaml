@@ -64,6 +64,7 @@ flutter:
     - assets/images/club.jpg
     - assets/images/club2.jpg
     - assets/images/itc.jpeg
+    - assets/images/feedback.jpeg
     - assets/images/code.png
   #   - images/a_dot_ham.jpeg
 

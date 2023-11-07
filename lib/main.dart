@@ -26,6 +26,9 @@ import 'package:collaborate/login.dart';
 import 'package:collaborate/introduction_animation/introduction_animation_screen.dart';
 import 'package:collaborate/feedback_screen.dart';
 import 'package:collaborate/screens/org_screen.dart';
+import 'package:collaborate/screens/com_screen.dart';
+import 'package:collaborate/models/editclubs.dart';
+import 'package:collaborate/models/help.dart';
 
 /// Flutter code sample for [ActionIconTheme].
 
@@ -120,14 +123,14 @@ class MyHomePage extends StatelessWidget {
               title: Text('Communities'),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ClubsScreen()));
+                    MaterialPageRoute(builder: (context) => comScreen()));
               },
             ),
             ListTile(
               title: Text('Edit'),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ClubsScreen()));
+                    MaterialPageRoute(builder: (context) => ClubFusionApp()));
               },
             ),
             ListTile(
@@ -141,7 +144,7 @@ class MyHomePage extends StatelessWidget {
               title: Text('Help'),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LoginPage()));
+                    MaterialPageRoute(builder: (context) => helpScreen()));
               },
             ),
             ListTile(
