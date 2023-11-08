@@ -1,7 +1,5 @@
-import 'package:collaborate/login.dart';
 import 'package:flutter/material.dart';
-import 'package:collaborate/models/club.dart'; // Define Club class
-import 'package:collaborate/screens/club_details_screen.dart';
+import 'package:collaborate/models/club.dart';
 import 'package:collaborate/club_coderit.dart';
 import 'package:collaborate/course_info_screen.dart';
 
