@@ -29,6 +29,7 @@ import 'package:collaborate/screens/org_screen.dart';
 import 'package:collaborate/screens/com_screen.dart';
 import 'package:collaborate/models/editclubs.dart';
 import 'package:collaborate/models/help.dart';
+import 'package:collaborate/profile.dart';
 
 /// Flutter code sample for [ActionIconTheme].
 
@@ -137,7 +138,7 @@ class MyHomePage extends StatelessWidget {
               title: Text('My Profile'),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LoginPage()));
+                    MaterialPageRoute(builder: (context) => ProfilePage()));
               },
             ),
             ListTile(

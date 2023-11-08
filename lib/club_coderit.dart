@@ -116,7 +116,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen1>
                                   'Coding Club',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
-                                    fontWeight: FontWeight.w200,
+                                    fontWeight: FontWeight.w400,
                                     fontSize: 22,
                                     letterSpacing: 0.27,
                                     color: DesignCourseAppTheme.nearlyBlue,
@@ -156,10 +156,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen1>
                                 padding: const EdgeInsets.only(
                                     left: 16, right: 16, top: 8, bottom: 8),
                                 child: Text(
-                                  'This is code rit an coding club',
+                                  'This is code rit an coding club.\n A college coding club is a student-led group where students of varying skill levels come together to learn, practice, and collaborate on coding and computer science projects. It offers workshops, hackathons, coding challenges, and opportunities for networking and career development. Its goal is to foster a sense of community and support among members who share an interest in technology and programming.',
                                   textAlign: TextAlign.justify,
                                   style: TextStyle(
-                                    fontWeight: FontWeight.w200,
+                                    fontWeight: FontWeight.w400,
                                     fontSize: 14,
                                     letterSpacing: 0.27,
                                     color: DesignCourseAppTheme.grey,
