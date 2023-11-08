@@ -86,7 +86,7 @@ class CareView extends StatelessWidget {
                   child: Container(
                     constraints: BoxConstraints(maxWidth: 350, maxHeight: 250),
                     child: Image.asset(
-                      'assets/introduction_animation/care_image.png',
+                      'assets/images/codingclub.png',
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -97,7 +97,7 @@ class CareView extends StatelessWidget {
                 child: SlideTransition(
                   position: _relaxSecondHalfAnimation,
                   child: Text(
-                    "Care",
+                    "Technical Clubs",
                     style:
                         TextStyle(fontSize: 26.0, fontWeight: FontWeight.bold),
                   ),
@@ -107,7 +107,7 @@ class CareView extends StatelessWidget {
                 padding:
                     EdgeInsets.only(left: 64, right: 64, bottom: 16, top: 16),
                 child: Text(
-                  " We, Swasthva do care about the user expirence and try to provide the best output for the user as possible",
+                  " It will have coding and othe bha bha bha things!",
                   textAlign: TextAlign.center,
                 ),
               ),

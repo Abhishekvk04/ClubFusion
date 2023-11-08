@@ -80,7 +80,7 @@ class MoodDiaryVew extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Charity Fund",
+                "Cultural ",
                 style: TextStyle(fontSize: 26.0, fontWeight: FontWeight.bold),
               ),
               SlideTransition(
@@ -91,7 +91,7 @@ class MoodDiaryVew extends StatelessWidget {
                     padding: EdgeInsets.only(
                         left: 64, right: 64, top: 16, bottom: 16),
                     child: Text(
-                      "Help the people in need with the help of Swasthva, Yes you can trust us!!",
+                      "Cultural culbs organize cultural events and are under DECA RIT",
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -104,7 +104,7 @@ class MoodDiaryVew extends StatelessWidget {
                   child: Container(
                     constraints: BoxConstraints(maxWidth: 350, maxHeight: 250),
                     child: Image.asset(
-                      'assets/introduction_animation/43091.jpg',
+                      'assets/images/dance.jpg',
                       fit: BoxFit.contain,
                     ),
                   ),
