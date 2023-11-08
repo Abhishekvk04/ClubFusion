@@ -17,7 +17,7 @@ class _comScreenState extends State<comScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('College Clubs'),
+        title: Text('College Communities'),
       ),
       body: GridView.count(
         primary: false,

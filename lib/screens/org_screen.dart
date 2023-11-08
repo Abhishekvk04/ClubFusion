@@ -17,7 +17,7 @@ class _orgScreenState extends State<orgScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('College Clubs'),
+        title: Text('College Organizations'),
       ),
       body: GridView.count(
         primary: false,
